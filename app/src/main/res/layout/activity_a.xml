@@ -27,8 +27,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Activity A"
-        android:layout_margin="20dp"
+        android:layout_margin="25dp"
         android:textColor="@color/mycolor"
+        android:textSize="25dp"
         android:textColorHighlight="@color/mycolor" />
     </LinearLayout>
 
@@ -58,7 +59,7 @@
         android:layout_height="wrap_content"
         android:text="Counter : "
         android:padding="20dp"
-        android:paddingLeft="40dp" />
+        android:layout_gravity="center"/>
 
     <View
         android:layout_width="match_parent"
@@ -69,6 +70,7 @@
         android:layout_height="wrap_content"
         android:text="Close App"
         android:layout_margin="60dp"
+        android:layout_gravity="center"
         android:padding="10dp"
         android:background="@color/yellow"
         android:onClick="activityB" />

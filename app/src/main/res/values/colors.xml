@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="navy">#008080</color>
     <color name="yellow">#F4D03F</color>
-    <color name="mycolor">#ECF0F1</color>
+    <color name="offwhite">#ECF0F1</color>
+    <color name="black">#1B2631</color>
 
 </resources>

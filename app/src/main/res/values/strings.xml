@@ -5,6 +5,8 @@
     <string name="btn_start_a">Activity A</string>
     <string name="btn_start_b">Activity B</string>
     <string name="btn_start_dialog">Dialog</string>
-    <string name="btn_finish_dialog_label">Close</string>
+    <string name="btn_finish_dialog_label">Yes</string>
     <string name="btn_close">Close App</string>
+    <string name="counter_label">Counter :</string>
+    <string name="dialog_text">Are you awesome ?</string>
 </resources>

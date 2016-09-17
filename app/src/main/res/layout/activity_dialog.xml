@@ -12,7 +12,7 @@
         android:text="@string/dialog_text"
         android:gravity="center_horizontal"
         android:textSize="@dimen/font_medium"
-        android:textColor="@color/light_yellow"
+        android:textColor="@color/black"
         android:paddingBottom="12dip" />
 
     <Button

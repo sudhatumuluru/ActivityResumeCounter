@@ -8,5 +8,5 @@
     <string name="btn_finish_dialog_label">Yes</string>
     <string name="btn_close">Close App</string>
     <string name="counter_label">Counter :</string>
-    <string name="dialog_text">Are you awesome ?</string>
+    <string name="dialog_text">This is an awesome app !!! </string>
 </resources>

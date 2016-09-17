@@ -11,6 +11,7 @@ public class ActivityA extends Activity {
 
     private String mActivityName;
     private TextView mCounter;
+    private int counter=1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +19,13 @@ public class ActivityA extends Activity {
         setContentView(R.layout.activity_a);
         mActivityName = getString(R.string.activity_b_label);
         mCounter = (TextView)findViewById(R.id.counter);
+
     }
 
     @Override
     protected void onStart() {
         super.onStart();
+        counter++;
 
     }
 

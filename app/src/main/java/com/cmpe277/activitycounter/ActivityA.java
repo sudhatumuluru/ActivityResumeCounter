@@ -12,6 +12,7 @@ public class ActivityA extends Activity {
     private TextView mCounter;
     private int counter=0;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +24,8 @@ public class ActivityA extends Activity {
     protected void onStart() {
         super.onStart();
         counter++;
-        mCounter.setText("Thread Counter : "+counter);
+        java.text.NumberFormat number = new java.text.DecimalFormat("0000");
+        mCounter.setText("Thread Counter : "+number.format(counter));
     }
 
     public void startDialog(View v){
